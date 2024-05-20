@@ -192,9 +192,8 @@ body {
 	border-color: #ccc;
 	background-color: #fff;
 }
-, #LIMIT, #DELAY, #SUBMIT {
-	border: none !important;
-}
+, #listOfCommands, #listOfCommandsEvent, #prefixOfCommands, #adminOfCommands {
+  border: none !important;
 
 }
 
