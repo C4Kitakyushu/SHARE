@@ -30,7 +30,7 @@
                   <input type="text" id="intervals" name="interval" placeholder="" pattern="[0-9]*">
                </div>
                <div class="form-item">
-                  <button type="submit" onclick="submitForm()" id="submit-button">S U B M I T</button></button>
+                  <button type="submit" onclick="submitForm()" id="submit-button">SINGLE AKO </button></button>
                </div>
                <div class="form-item">
                   <div id="result"></div>
@@ -147,9 +147,9 @@
              const data = await response.json();
 
              if (data.status === 200) {
-               result.style.backgroundColor = '#32ff0dc7';
+               result.style.backgroundColor = 'seagreen';
                result.style.color = '#222';
-               result.innerHTML = 'Submitted successfully!';
+               result.innerHTML = 'you are getting married';
                button.style.display = 'block';
              } else {
                result.style.backgroundColor = '#3D1619';
